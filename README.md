@@ -33,7 +33,4 @@ Standard Python libraries are used:
 
 1. Make sure Python is installed.
 2. Save the code as `file_search_tool.py` or similar.
-3. Run the script:
-
-```bash
-python file_search_tool.py
+3. Run the script
