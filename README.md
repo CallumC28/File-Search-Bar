@@ -16,12 +16,6 @@ A sleek, user-friendly desktop application built using Python's `tkinter` librar
 
 ---
 
-## 🖥️ Screenshot
-
-*(Add your screenshot here if you'd like)*
-
----
-
 ## 📦 Requirements
 
 - Python 3.7+
