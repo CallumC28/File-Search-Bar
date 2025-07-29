@@ -4,7 +4,7 @@ A sleek, user-friendly desktop application built using Python's `tkinter` librar
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔎 **Live file search** with keyword matching
 - 📂 **Optional extension filter** (e.g., `.txt`, `.pdf`, `.py`)
