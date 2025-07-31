@@ -16,7 +16,7 @@ A sleek, user-friendly desktop application built using Python's `tkinter` librar
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - Works on Windows
@@ -29,7 +29,7 @@ Standard Python libraries are used:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure Python is installed.
 2. Save the code as `file_search_tool.py` or similar.
