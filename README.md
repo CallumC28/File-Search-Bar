@@ -1,4 +1,4 @@
-# 🔍 Modern File Search Tool (Python + Tkinter)
+# Modern File Search Tool (Python + Tkinter)
 
 A sleek, user-friendly desktop application built using Python's `tkinter` library for quickly searching files by name (with optional extension filtering) across your computer.
 
