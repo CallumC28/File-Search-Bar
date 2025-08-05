@@ -6,13 +6,13 @@ A sleek, user-friendly desktop application built using Python's `tkinter` librar
 
 ## Features
 
-- 🔎 **Live file search** with keyword matching
-- 📂 **Optional extension filter** (e.g., `.txt`, `.pdf`, `.py`)
-- 📁 **Toggle recursive search** to include/exclude subfolders
-- 🚀 **Multithreaded** for smooth, responsive UI
-- 📄 **Double-click a result** to open file location in Windows Explorer
-- ⏹️ **Stop button** to cancel ongoing searches
-- ⚙️ **Modern dark-themed GUI** with responsive design
+- **Live file search** with keyword matching
+- **Optional extension filter** (e.g., `.txt`, `.pdf`, `.py`)
+- **Toggle recursive search** to include/exclude subfolders
+- **Multithreaded** for smooth, responsive UI
+- **Double-click a result** to open file location in Windows Explorer
+- **Stop button** to cancel ongoing searches
+- **Modern dark-themed GUI** with responsive design
 
 ---
 
