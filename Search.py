@@ -49,12 +49,12 @@ def open_in_explorer(event):
         if os.path.exists(file_path):
             subprocess.run(f'explorer /select,"{file_path}"')
 
-# === GUI Setup ===
+# GUI Setup
 root = tk.Tk()
 root.title("Modern File Search Tool")
 root.geometry("900x600")
 
-# === Colors and Fonts ===
+# Colours and Fonts
 bg_color = "#1e1e1e"
 fg_color = "#ffffff"
 entry_bg = "#2d2d2d"
@@ -64,7 +64,7 @@ font_main = ("Segoe UI", 11)
 
 root.configure(bg=bg_color)
 
-# === Style Setup ===
+# Style Setup
 style = ttk.Style(root)
 style.theme_use("clam")
 style.configure("TFrame", background=bg_color)
@@ -75,7 +75,7 @@ style.map("TButton", background=[("active", "#5a9bfc")])
 style.configure("TCheckbutton", background=bg_color, foreground=fg_color, font=font_main)
 style.configure("TProgressbar", background=highlight, troughcolor="#2d2d2d", thickness=8)
 
-# === Main Frame ===
+# Main Frame
 main_frame = ttk.Frame(root, padding=20)
 main_frame.pack(fill="both", expand=True)
 
@@ -104,7 +104,7 @@ progress_bar.grid(row=4, column=0, columnspan=2, pady=10)
 
 ttk.Label(main_frame, text="Search Results:").grid(row=5, column=0, sticky="w", pady=(15, 5))
 
-# === Listbox with Dark Scrollbar ===
+# Listbox with Dark Scrollbar
 results_list = tk.Listbox(main_frame,
                           height=18, width=100,
                           bg=entry_bg, fg=fg_color,
@@ -122,9 +122,9 @@ scrollbar = tk.Scrollbar(main_frame, orient="vertical", command=results_list.yvi
 scrollbar.grid(row=6, column=2, sticky="ns")
 results_list.config(yscrollcommand=scrollbar.set)
 
-# === Resize Config ===
+# Resize Config
 main_frame.columnconfigure(1, weight=1)
 main_frame.rowconfigure(6, weight=1)
 
-# === Run ===
+# Run
 root.mainloop()
